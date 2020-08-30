@@ -35,7 +35,7 @@ class Explore extends Component {
     return (
       <Block animated middle flex={searchFocus} style={styles.search}>
         <Input
-          placeholder="Search"
+          placeholder="Tìm kiếm"
           placeholderTextColor={theme.colors.gray2}
           style={styles.searchInput}
           onFocus={() => this.handleSearchFocus(true)}
@@ -58,7 +58,7 @@ class Explore extends Component {
       </Block>
     );
   }
-
+/*
   renderImage(img, index) {
     const { navigation } = this.props;
     const sizes = Image.resolveAssetSource(img);
@@ -97,6 +97,7 @@ class Explore extends Component {
       </Block>
     );
   }
+*/
 
   renderFooter() {
     return (
@@ -107,7 +108,7 @@ class Explore extends Component {
       >
         <Button gradient style={{ width: width / 2.678 }}>
           <Text bold white center>
-            Filter
+            Tìm kiếm
           </Text>
         </Button>
       </LinearGradient>
@@ -119,20 +120,23 @@ class Explore extends Component {
       <Block>
         <Block flex={false} row center space="between" style={styles.header}>
           <Text h1 bold>
-            Explore
+            
           </Text>
           {this.renderSearch()}
         </Block>
 
-        <ScrollView showsVerticalScrollIndicator={false} style={styles.explore}>
-          {this.renderExplore()}
-        </ScrollView>
+
 
         {this.renderFooter()}
       </Block>
     );
   }
 }
+/* <ScrollView showsVerticalScrollIndicator={false} style={styles.explore}>
+      {this.renderExplore()}
+  </ScrollView>
+*/
+// thuộc dòng số 126-128 để mở lại scrollview ảnh
 
 Explore.defaultProps = {
   images: mocks.explore
@@ -146,8 +150,8 @@ const styles = StyleSheet.create({
     paddingBottom: theme.sizes.base * 2
   },
   search: {
-    height: theme.sizes.base * 2,
-    width: width - theme.sizes.base * 2
+    height: theme.sizes.base * 10,
+    width: width - theme.sizes.base * 10
   },
   searchInput: {
     fontSize: theme.sizes.caption,
