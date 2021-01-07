@@ -30,5 +30,7 @@ Currently this version is in need of review to build a back-end system with NLP 
 
 for more detail information, check out this [Github](https://github.com/mannguyenngoc/contactme-vn/) from [mannguyenngoc](https://github.com/mannguyenngoc)
 
+## Preview
+Watch video demo from here: https://bit.ly/3lcctj8
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
