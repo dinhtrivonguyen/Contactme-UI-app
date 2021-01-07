@@ -1,12 +1,7 @@
-# Phan Chau Trinh Strangers 
-
-A chatbot allows you to chat anonymously with strangers.
-This is the version I created for the students who are studying at Phan Chau Trinh High School, in Da Nang City.
-I built using Javascript (Node.js, Express.js) and MongoDB. 
-
-Then I worked on Facebook platform and Facebook Messenger chatbots so it can run successfully on fanpage [Phan Châu Trinh Strangers](https://www.facebook.com/PhanChauTrinhStrangers) 
-
-Currently, this chatbot has been used by 5,000 users and nearly 100 times daily texting.
+# Contactme - ui App
+Contact.me is an project for help manager, search for the online work online Lasting 7 minutes in global service period.
+This is the first application I do Front-end with React Native.
+This project is used to participate in the FPT ResFes 2020 contest as a representative of Developer Studet Clubs - FPT University, Danang.
 
 ## Installation
 
