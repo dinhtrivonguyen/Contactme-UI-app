@@ -1,4 +1,4 @@
-# Contactme - ui App
+# Contactme - UI app
 Contact.me is an project for help manager, search for the online work online Lasting 7 minutes in global service period.
 This is the first application I do Front-end with React Native.
 This project is used to participate in the FPT ResFes 2020 contest as a representative of Developer Studet Clubs - FPT University, Danang.
